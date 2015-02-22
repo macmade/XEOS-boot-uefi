@@ -73,3 +73,7 @@ all:
 clean: obj-clean
 	
 	@:
+
+distclean: clean deps-clean
+	
+	@:
